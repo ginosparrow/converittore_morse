@@ -8,7 +8,7 @@ Molto semplicemente questo programma permette di convertire una frase o parola i
 
 ## come funziona ?🤔
 
-La componete grafica viene gstita dalla libreria Tkinter. Questa e giapresente appena installato pytohn 🐍. La versione consilgiata e la 3.11.9 . Se si vuole usare dei preset grafici per Tkinter si puo installare la libreria _ttkbootstrap_.
+La componete grafica viene gestita dalla libreria Tkinter. Questa è gia presente appena installato pytohn 🐍. La versione consilgiata e la 3.11.9 . Se si vuole usare dei preset grafici per Tkinter si puo installare la libreria _ttkbootstrap_.
     
     pip install ttkbootstrap
 
@@ -45,7 +45,7 @@ tutto cio che viene digitato nella casella di testo viene inviata alla funzione
 
     def calcolo(*args):
 
-poi viene covnetira ala leterea in morse con la funzione match
+poi viene covnetita da lettera in morse con la funzione match
 
      match n[len(n)-1]:
                     case 'a':
@@ -64,15 +64,15 @@ poi viene covnetira ala leterea in morse con la funzione match
                     case 'g': 
                     ...
 
-in  fine viene retituito il risultato 
+in  fine viene retituito il risultato che viene scrita su una casella di testo  
 
      b.set(morse)
 
-tutti cio si ripete ance per la coverisione da morse a lettere
+tutti cio si ripete anche per la coverisione da morse a lettere
 
 --------------------
 ## installazione 🛠
-non serve instalare nulla! tranne python🐍 ovviamnte 😅, ma facoltativamente si puo installare anche la libreria _ttkbootstrap_ totalmente a propia discrezione.
+Non serve instalare nulla! tranne python🐍 ovviamnte 😅, ma facoltativamente si puo installare anche la libreria _ttkbootstrap_ totalmente a propia discrezione.
 
 ### os suportati
 
