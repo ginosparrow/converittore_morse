@@ -8,7 +8,7 @@ Molto semplicemente questo programma permette di convertire una frase o parola i
 
 ## come funziona ?🤔
 
-La componete grafica viene gestita dalla libreria Tkinter. Questa è gia presente appena installato pytohn 🐍. La versione consilgiata e la 3.11.9 . Se si vuole usare dei preset grafici per Tkinter si puo installare la libreria _ttkbootstrap_.
+Partiamo con La componete grafica viene gestita dalla libreria Tkinter. Questa è gia presente appena installato pytohn 🐍. La versione consilgiata e la 3.11.9 . Se si vuole usare dei preset grafici per Tkinter si puo installare la libreria _ttkbootstrap_.
     
     pip install ttkbootstrap
 
