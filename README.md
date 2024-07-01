@@ -121,7 +121,7 @@ vi bastera installare la libreria pyinstaller
 
     pip install pyinstaller
 
-è molto semplice basta seguire la ['guida online']()
+è molto semplice basta seguire la ['guida online'](https://pyinstaller.org/en/stable/)
 
 ### Macos
 
@@ -129,7 +129,7 @@ anche qui basta installare la libreria py2app
 
     pip install py2app
 
-sepre seguire la guida online 
+sepre seguire la ['guida online'](https://py2app.readthedocs.io/en/latest/)
 
 --------------------
  ## Bene ora puo divertirit a scrivere in morse 
