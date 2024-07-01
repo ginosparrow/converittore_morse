@@ -121,7 +121,7 @@ vi bastera installare la libreria pyinstaller
 
     pip install pyinstaller
 
-è molto semplice basta seguire la guida online 
+è molto semplice basta seguire la ['guida online']()
 
 ### Macos
 
