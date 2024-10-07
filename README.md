@@ -7,7 +7,6 @@ Molto semplicemente questo programma permette di convertire una frase o parola i
     -.-. .. .- --- / -- --- -. -.. ---
 
 ## come funziona ?🤔
-
 La componete grafica viene gestita dalla libreria Tkinter. Questa è gia presente appena installato pytohn 🐍. La versione consilgiata e la 3.11.9. In questo progetto e stato utilizata una libreria grafiaca aggiuntiva per Tkinter per dargli un'aspetto più gradevole, per non far sebrare la finesta datata (anche se ha il suo fascino).La libreria in questione e TTKBOOTSTRAP.
     
     pip install ttkbootstrap
@@ -63,7 +62,7 @@ vi bastera installare la libreria pyinstaller
 
     pip install pyinstaller
 
-è molto semplice basta seguire la guida online 
+è molto semplice basta seguire la ['guida online'](https://pyinstaller.org/en/stable/)
 
 ### Macos
 
@@ -71,7 +70,7 @@ anche qui basta installare la libreria py2app
 
     pip install py2app
 
-sepre seguire la guida online 
+sepre seguire la ['guida online'](https://py2app.readthedocs.io/en/latest/)
 
 --------------------
  ## Bene ora puo divertirit a scrivere in morse 
