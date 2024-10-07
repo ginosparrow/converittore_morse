@@ -8,71 +8,13 @@ Molto semplicemente questo programma permette di convertire una frase o parola i
 
 ## come funziona ?🤔
 
-La componete grafica viene gestita dalla libreria Tkinter. Questa è gia presente appena installato pytohn 🐍. La versione consilgiata e la 3.11.9 . Se si vuole usare dei preset grafici per Tkinter si puo installare la libreria _ttkbootstrap_.
+La componete grafica viene gestita dalla libreria Tkinter. Questa è gia presente appena installato pytohn 🐍. La versione consilgiata e la 3.11.9. In questo progetto e stato utilizata una libreria grafiaca aggiuntiva per Tkinter per dargli un'aspetto più gradevole, per non far sebrare la finesta datata (anche se ha il suo fascino).La libreria in questione e TTKBOOTSTRAP.
     
     pip install ttkbootstrap
 
-La conversione da lettere a codice morse, usa una fuzione che fa riferimento a variabili nominate con la lettere contenete il corrispettivo in morse.
-
-        A = '.-'
-        B = '-...'
-        C = '-.-.'
-        D = '-..'
-        E = '.'
-        F = '..-.'
-        G = '--.'
-        H = '....'
-        I = '..'
-        J = '.---'
-        K = '-.-'
-        L = '.-..'
-        M = '--'
-        N = '-.'
-        O = '---'
-        P = '.--.'
-        Q = '--.-'
-        R = '.-.'
-        S = '...'
-        T = '-'
-        U = '..-'
-        V = '...-'
-        W = '.--'
-        X = '-..-'
-        Y = '-.--'
-        Z = '--..'
-
-tutto cio che viene digitato nella casella di testo viene inviata alla funzione 
-
-    def calcolo(*args):
-
-poi viene covnetita da lettera in morse con la funzione match
-
-     match n[len(n)-1]:
-                    case 'a':
-                            morse.append(A)
-                    case 'b':
-                            morse.append(B)
-                    case 'c':
-                            morse.append(C)##return C
-                    case 'd':
-                            morse.append(D)##return D
-                    case 'e':
-                            morse.append(E)##return E
-                    case 'f':
-                            morse.append(F)
-                            ##return F
-                    case 'g': 
-                    ...
-
-in  fine viene retituito il risultato che viene scrita su una casella di testo  
-
-     b.set(morse)
-
-tutti cio si ripete anche per la coverisione da morse a lettere
-
 --------------------
 ## installazione 🛠
-Non serve instalare nulla! tranne python🐍 ovviamnte 😅, ma facoltativamente si puo installare anche la libreria _ttkbootstrap_ totalmente a propia discrezione.
+Non serve instalare nulla! tranne python🐍 ovviamnte 😅 e la libreria _ttkbootstrap_ totalmente a propia discrezione.
 
 ### os suportati
 
@@ -82,14 +24,14 @@ Non serve instalare nulla! tranne python🐍 ovviamnte 😅, ma facoltativamente
 | windows |  ✅ |
 | Macos | ✅ |
 
-Se si vuole redere i file .exe queidi eseguiblili come una applicazione seguire i passagi per il sistema operativo d'uso utilitario.
+Se si vuole redere i file .exe queidi eseguiblili come una applicazione, seguire i passagi per il sistema operativo d'uso utilitario.
 
 ### Linux 
 Per i sitemi Linux inseriamo al inizio del file python queta stringa di codice
 
      #!/usr/bin/env python3
 
-ciò permette di redere il file exeguibile senza dover pasare per l'interprete python.
+ciò permette di redere il file ricniamabile dal terminale senza dover pasare per l'interprete python.
 
 Poi bisogna dargli i permessi di eseguzione 
 
