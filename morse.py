@@ -120,19 +120,36 @@ def morse_lettere(text):
             entry_nt.insert( tk.END, '9')
         elif p == zero:
             entry_nt.insert( tk.END, '0')
+        elif  p == "/":
+            entry_nt.insert( tk.END, ' ')
 
     #print(inp)
-
+    
     for i in inp:
         
-        if i == '/' or i == ' ' or i == "\n":
+        ##if i == ' ' or i == "\n":
             #print(' ')
             #print(parola)
+            ##parola [index:] = i
+            ##traduttore(parola)
+            ##if i == "\n":
+                ##parola [index:] = i
+                ##index += 1
+               ## traduttore(parola)
+
+            ##index = 0 
+ 
+        ##else:
+        
+        if i == ' ' or i == "\n":
             traduttore(parola)
             index = 0
+            if i == "\n":
+                entry_nt.insert( tk.END, '\n')
+             
         else:
             parola [index:] = i
-            index = index +1
+            index += 1
             
     #print(parola)
 
@@ -180,121 +197,120 @@ def lettere_morse(text):
     inpp = text
 
     for ar in inpp :
-                entry_morse.insert(tk.END, " ")
+                entry_nt.insert(tk.END, " ")
                 match ar.lower():
                         case 'a':
                             print(A)
-                            entry_morse.insert(tk.END, A)
+                            entry_nt.insert(tk.END, A)
                         case 'b':
                             print(B)
-                            entry_morse.insert(tk.END, B)
+                            entry_nt.insert(tk.END, B)
                         case 'c':
                             print(C)
-                            entry_morse.insert(tk.END, C)
+                            entry_nt.insert(tk.END, C)
                         case 'd':
                             print(D)
-                            entry_morse.insert(tk.END, D)
+                            entry_nt.insert(tk.END, D)
                         case 'e':
                             print(E)
-                            entry_morse.insert(tk.END, E)
+                            entry_nt.insert(tk.END, E)
                         case 'f':
                             print(F)
-                            entry_morse.insert(tk.END, F)
+                            entry_nt.insert(tk.END, F)
                         case 'g':
                             print(G)
-                            entry_morse.insert(tk.END, G)
+                            entry_nt.insert(tk.END, G)
                         case 'h':
                             print(H)
-                            entry_morse.insert(tk.END, H)
+                            entry_nt.insert(tk.END, H)
                         case 'i':
                             print(I)
-                            entry_morse.insert(tk.END, I)
+                            entry_nt.insert(tk.END, I)
                         case 'j':
                             print(J)
-                            entry_morse.insert(tk.END, J)
+                            entry_nt.insert(tk.END, J)
                         case 'k':
                             print(K)
-                            entry_morse.insert(tk.END, K)
+                            entry_nt.insert(tk.END, K)
                         case 'l':
                             print(L)
-                            entry_morse.insert(tk.END, L)
+                            entry_nt.insert(tk.END, L)
                         case 'm':
                             print(M)
-                            entry_morse.insert(tk.END, M)
+                            entry_nt.insert(tk.END, M)
                         case 'n':
                             print(N)
-                            entry_morse.insert(tk.END, N)
+                            entry_nt.insert(tk.END, N)
                         case 'o':
                             print(O)
-                            entry_morse.insert(tk.END, O)
+                            entry_nt.insert(tk.END, O)
                         case 'p':
                             print(P)
-                            entry_morse.insert(tk.END, P)
+                            entry_nt.insert(tk.END, P)
                         case 'q':
                             print(Q)
-                            entry_morse.insert(tk.END, Q)
+                            entry_nt.insert(tk.END, Q)
                         case 'r':
                             print(R)
-                            entry_morse.insert(tk.END, R)
+                            entry_nt.insert(tk.END, R)
                         case 's':
                             print(S)
-                            entry_morse.insert(tk.END, S)
+                            entry_nt.insert(tk.END, S)
                         case 't':
                             print(T)
-                            entry_morse.insert(tk.END, T)
+                            entry_nt.insert(tk.END, T)
                         case 'u':
                             print(U)
-                            entry_morse.insert(tk.END, U)
+                            entry_nt.insert(tk.END, U)
                         case 'v':
                             print(V)
-                            entry_morse.insert(tk.END, V)
+                            entry_nt.insert(tk.END, V)
                         case 'w':
                             print(W)
-                            entry_morse.insert(tk.END, W)
+                            entry_nt.insert(tk.END, W)
                         case 'x':
                             print(X)
-                            entry_morse.insert(tk.END, X)
+                            entry_nt.insert(tk.END, X)
                         case 'y':
                             print(Y)
-                            entry_morse.insert(tk.END, Y)
+                            entry_nt.insert(tk.END, Y)
                         case 'z':
                             print(Z)
-                            entry_morse.insert(tk.END, Z)
+                            entry_nt.insert(tk.END, Z)
                         case " ":
-                            entry_morse.insert(tk.END, '/')
+                            entry_nt.insert(tk.END, '/')
                         case "\n":
-                            entry_morse.insert(tk.END, "\n")
+                            entry_nt.insert(tk.END, "\n")
                         case "1":
-                            entry_morse.insert(tk.END, uno)
+                            entry_nt.insert(tk.END, uno)
                         case "2":
-                            entry_morse.insert(tk.END, due) 
+                            entry_nt.insert(tk.END, due) 
                         case "3":
-                            entry_morse.insert(tk.END, tre)
+                            entry_nt.insert(tk.END, tre)
                         case "4":
-                            entry_morse.insert(tk.END, quattro)
+                            entry_nt.insert(tk.END, quattro)
                         case "5":
-                            entry_morse.insert(tk.END, cinque)
+                            entry_nt.insert(tk.END, cinque)
                         case "6":
-                            entry_morse.insert(tk.END, sei)
+                            entry_nt.insert(tk.END, sei)
                         case "7":
-                            entry_morse.insert(tk.END, sette)
+                            entry_nt.insert(tk.END, sette)
                         case "8":
-                            entry_morse.insert(tk.END, otto)
+                            entry_nt.insert(tk.END, otto)
                         case "9":
-                            entry_morse.insert(tk.END, nove)
+                            entry_nt.insert(tk.END, nove)
                         case "0":
-                            entry_morse.insert(tk.END, zero)
+                            entry_nt.insert(tk.END, zero)
                         case _:
-                            entry_morse.insert(tk.END, ar)
+                            entry_nt.insert(tk.END, ar)
 
 def coonvert():
     morsee = entry_morse.get("1.0", "end")
-    ntt = entry_nt.get("1.0", "end")
-
-    #if morsee == '' and ntt != '':
-    lettere_morse(ntt)
-    #elif ntt == '' and morsee != '':
-    morse_lettere(morsee)
+    for i in morsee:
+        if i == "-" or i == ".":
+            morse_lettere(morsee)
+        else:
+            lettere_morse(morsee)
 
 ttk.set_appearance_mode("System")
 ttk.set_default_color_theme("green")
