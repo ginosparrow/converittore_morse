@@ -68,7 +68,7 @@ title_nt.grid(row=0, column=1, padx=10, pady=10)
 entry_nt = ttk.CTkTextbox(griglia, width=200, height=200, border_color="blue", border_spacing=3, font=("Arial", 20))
 entry_nt.grid(row=1, column=1, padx=10, pady=10)
 
-b_chek = ttk.CTkButton(griglia, text="Click", command=coonvert)
+b_chek = ttk.CTkButton(griglia, text="Convert", command=coonvert)
 b_chek.grid(row=2, column=0, pady=10)
 
 clear_button = ttk.CTkButton(griglia, text="Clear", fg_color="red", command=clear)
